@@ -8,8 +8,8 @@ app.use(cors())
 app.get('/', (req, res) => {
   res.json([
     {
-      "id":"5",
-      "title":"Book Review: The Bear & The Nightingale"
+      "id":"1",
+      "title":"Book Review: The Name of the Wind"
     },
     {
       "id":"2",
@@ -18,6 +18,10 @@ app.get('/', (req, res) => {
     {
       "id":"3",
       "title":"Show Review: Alice in Borderland"
+    },
+    {
+      "id":"4",
+      "title":"Podcast Review: The Garden State"
     }
   ])
 })
